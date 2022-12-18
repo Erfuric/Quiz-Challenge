@@ -1,0 +1,60 @@
+#quiz {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #time {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #choices {
+    margin-bottom: 20px;
+  }
+  
+  #choices button {
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+  }
+  
+  #choices button:hover {
+    background-color: #ccc;
+  }
+  
+  #gameOverForm {
+    display: none;
+  }
+  
+  #gameOverForm label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #gameOverForm input[type="text"] {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #gameOverForm button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+  }
+  
+  #gameOverForm button:hover {
+    background-color: #ccc;
+  }
+  

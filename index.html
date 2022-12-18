@@ -8,7 +8,23 @@
     <title>Coding Quiz</title>
   </head>
   <body>
-
+    <div id="quiz">
+      <h1>Quiz Game</h1>
+      <p id="time">Time remaining: <span id="timer">60</span> seconds</p>
+      <p id="question"></p>
+      <div id="choices">
+        <button id="choice1"></button>
+        <button id="choice2"></button>
+        <button id="choice3"></button>
+        <button id="choice4"></button>
+      </div>
+      <form id="gameOverForm">
+        <p>Game over! Your score is <span id="score"></span></p>
+        <label for="initials">Enter your initials:</label>
+        <input type="text" id="initials" maxlength="3">
+        <button type="submit">Save Score</button>
+      </form>
+    </div>
   
     <script src="./assets/js/script.js"></script>
   </body>
