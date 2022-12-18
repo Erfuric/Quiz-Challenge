@@ -12,33 +12,34 @@ const questions = [
   {
     question: "What does javaScript provide to code?",
     choices: ["a. Style", "b. Interactive Content", "c. Website Foundation", "d. None of the above"],
-    correctAnswer: "b. Interactive Content"
+    correctChoice: "b. Interactive Content"
   },
   {
     question: "The following code is an example of what? for (var i=0, i < userlength, i++)",
     choices: ["a. Function", "b. For Loop", "c. Object", "d. Array"],
-    correctAnswer: "b. For Loop"
+    correctChoice: "b. For Loop"
   },
   {
     question: "How many items are in an array with an index of 5?",
     choices: ["a. 4", "b. 5", "c. 6", "d. 7"],
-    correctAnswer: "c. 6"
+    correctChoice: "c. 6"
   },
   {
     question: "What is a function call?",
     choices: ["a. A request made by a program or script that performs a predetermined function.", "b. A special variable, which can hold more than one value at a time.", "c. A method.", "d. None of the Above"],
-    correctAnswer: "a. A request made by a program or script that performs a predetermined function."
+    correctChoice: "a. A request made by a program or script that performs a predetermined function."
   },
   {
     question: "How do you call the function showScore??",
     choices: ["a. function ()", "b. Undefined", "c. showScore()", "d. function showScore(score)"],
-    correctAnswer: "c. showScore()"
+    correctChoice: "c. showScore()"
   }
 ];
 
 startButton.addEventListener("click", startQuiz);
 
 function startQuiz() {
+    startQuizPrompt.style.display = "none";  // Hide the start quiz prompt
     timer = 60;
     currentQuestion = 0;
     score = 0;
