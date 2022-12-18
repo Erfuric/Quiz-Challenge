@@ -39,7 +39,7 @@ const questions = [
 startButton.addEventListener("click", startQuiz);
 
 function startQuiz() {
-    startQuizPrompt.style.display = "none";  // Hide the start quiz prompt
+    startQuizPrompt.style.display = "none";
     timer = 60;
     currentQuestion = 0;
     score = 0;
