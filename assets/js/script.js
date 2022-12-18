@@ -5,6 +5,8 @@ const questionContainer = document.getElementById("question");
 const gameOverForm = document.getElementById("gameOverForm");
 const scoreSpan = document.getElementById("score");
 const initialsInput = document.getElementById("initials");
+const startQuizPrompt = document.getElementById("startQuizPrompt");
+const startButton = document.getElementById("startButton");
 
 const questions = [
   {
@@ -34,6 +36,7 @@ const questions = [
   }
 ];
 
+startButton.addEventListener("click", startQuiz);
 
 function startQuiz() {
     timer = 60;
